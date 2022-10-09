@@ -46,7 +46,7 @@ char **strtow(char *str)
 	{
 		for (c = a1; str[c] != '\0'; c++)
 		{
-			for (c = a1; str[c] != '\0'; c++)
+			if (str[c] == ' ')
 				a1++;
 			if (str[c] != ' ' && (str[c + 1] == ' ' || str[c + 1] == '\0'))
 			{
