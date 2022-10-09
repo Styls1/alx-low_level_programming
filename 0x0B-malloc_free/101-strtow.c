@@ -8,7 +8,6 @@
  *
  * Return: Nothing.
  */
-
 void ch_free_grid(char **grid, unsigned int height)
 {
 	if (grid != NULL && height != 0)
@@ -21,11 +20,10 @@ void ch_free_grid(char **grid, unsigned int height)
 }
 
 /**
- * strtow - A function that splits a string into words.
- * @str: An input pointer of the string to split.
- * Return: Apointer to concatened strings or NULL if it str is NULL.
+ * strtow - Splits a string into words.
+ * @str: String.
+ * Return: A pointer to concatenate strings or NULL if it str is NULL.
  */
-
 char **strtow(char *str)
 {
 	char **aout;
