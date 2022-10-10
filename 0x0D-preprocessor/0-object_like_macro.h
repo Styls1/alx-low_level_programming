@@ -1,9 +1,9 @@
-#ifndef _0_object_like_macro_H_
-#define _0_object_like_macro_H_
+#ifndef _0_OBJECT_LIKE_MACRO_H_
+#define _0_OBJECT_LIKE_MACRO_H_
 #define SIZE (1024)
 
 /**
  * size - Header file that defines a macro name.
  */
 
-#endif /* SIZE 1024 */
+#endif /* #ifndef _0_OBJECT_LIKE_MACRO_H_ */
