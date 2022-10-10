@@ -1,6 +1,6 @@
 #ifndef _3_FUNCTION_LIKE_MACRO_H_
 #define _3_FUNCTION_LIKE_MACRO_H_
-#define ABS(x) (x >= 0 ? (X) : (-x))
+#define ABS(x) ((x) < (0) ? (x) : (-x))
 
 /**
  * ABS - Macro ABS(x) that computes the absolute value
